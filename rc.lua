@@ -342,8 +342,9 @@ client.add_signal("unfocus", function(c) c.border_color = beautiful.border_norma
 do
   local cmds =
   {
-    "pidgin",
-    "gnome-sound-applet"
+    "wmname LG3D",
+    "gnome-session",
+    "pidgin"
   }
 
   for _,i in pairs(cmds) do
